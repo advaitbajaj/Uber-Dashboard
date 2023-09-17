@@ -1,0 +1,66 @@
+body {
+    color : #D8D8D8;
+    max-height: 100vh;
+}
+
+h2, h4, h6 {
+    font-weight: bold;
+}
+
+
+.sidebar {
+    background-color : #1E1E1E;
+    color : white;
+    min-height : 100vh;
+}
+
+.kpi {
+    border : 1px solid white;
+}
+
+.content {
+    max-height: 100vh;
+}
+
+.content-row-1 {
+    min-height : 50vh;
+    max-height: 50vh;
+}
+
+#carousel {
+    height: 100%;
+    width: 100%;
+}
+
+.content-row-2 {
+    min-height : 50vh;
+    max-height: 50vh;
+}
+
+#map {
+    width : 100%;
+    min-height : 50vh;
+    max-height: 50vh;
+}
+
+.chart {
+    text-align: center;
+}
+
+#chart {
+    width: 100%;
+    height: 100%;
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+    background-color: #1E1E1E;
+    color: white;    
+}
+
+.Select-control{
+    border: 0.5px solid #dbdbdb44;
+}
+  
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: white;
+}
